@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 582px;
+    width: 100%;
+}
+
+.form__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__block input {
+    width: 100%;
+}
