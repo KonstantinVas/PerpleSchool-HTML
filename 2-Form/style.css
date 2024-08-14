@@ -104,3 +104,8 @@ label {
     font-weight: 400;
     line-height: 19px;
 }
+
+.checkbox__block {
+    display: flex;
+    gap: 4px;
+}
