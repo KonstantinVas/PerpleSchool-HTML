@@ -1,12 +1,30 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+}
 
+.body {
+    background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+}
+
+.container {
+    max-width: 1240px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .nav {
     display: flex;
     align-items: center;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
 }
 
 .header__block {
@@ -24,11 +42,80 @@
 
 .avatar {
     display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-.container {
-    max-width: 1240px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+.input {
+    padding: 9px 9px 9px 49px;
+    border-radius: 100px;
+    background: rgba(31, 41, 55, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    opacity: 0.6;
+
+}
+
+.time {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.6;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.avatar__block p {
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.nameText {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.nameText+p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.secondText {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footerText {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.image {
+    border-radius: 7px;
+}
+
+.container__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarImg {
+    width: 50px;
+    height: 50px;
 }
