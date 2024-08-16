@@ -4,11 +4,16 @@
 }
 
 .body {
+    margin: 0;
     background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
 }
 
+.main {
+    margin-bottom: 100px;
+}
+
 .container {
-    max-width: 1240px;
+    max-width: 1470px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -36,11 +41,13 @@
 .header__list {
     display: flex;
     gap: 30px;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .avatar {
+    margin-bottom: 28px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -61,6 +68,7 @@
 }
 
 .time {
+    margin-bottom: 14px;
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 400;
@@ -69,6 +77,7 @@
 }
 
 .title {
+    margin: 0 0 30px 0;
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -81,11 +90,13 @@
 }
 
 .nameText {
+    margin: 0;
     color: rgb(255, 255, 255);
     font-size: 16px;
 }
 
 .nameText+p {
+    margin: 0;
     color: rgb(255, 255, 255);
     font-size: 14px;
     opacity: 0.6;
@@ -98,6 +109,14 @@
     line-height: 32px;
 }
 
+.paragraph {
+    margin: 0px;
+}
+
+.paragraph:not(:last-child) {
+    margin-bottom: 30px;
+}
+
 .footerText {
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -106,6 +125,7 @@
 }
 
 .image {
+    margin-bottom: 69px;
     border-radius: 7px;
 }
 
@@ -118,4 +138,14 @@
 .avatarImg {
     width: 50px;
     height: 50px;
+}
+
+.footerSecond {
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.6;
 }
