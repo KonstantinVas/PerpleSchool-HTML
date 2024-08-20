@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .body {
@@ -19,6 +19,10 @@
     margin: 0 auto;
 }
 
+header {
+    margin-bottom: 80px;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -35,6 +39,7 @@
 .header__block {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: auto;
 }
 
