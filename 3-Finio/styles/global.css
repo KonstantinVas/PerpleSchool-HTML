@@ -7,13 +7,13 @@
     --color-stroke: #ffc736;
     --color-footer: #101114;
     --color-bg-bottom: #4e5d7c14;
+    --color-rgba: rgba(255, 255, 255, 0.8);
 
     --main-font-size: 17px;
-
     --border-5: 5px;
     --border-8: 8px;
     --border-10: 10px;
-    --layout-width: 1345px;
+    --layout-width: 1500px;
     --gap-24: 24px;
 }
 
@@ -33,6 +33,7 @@ body {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
+
 }
 
 a {
